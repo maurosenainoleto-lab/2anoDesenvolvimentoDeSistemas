@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    overflow: hidden;
+}
+
+@keyframes MARIOANDANDO {
+   0%{
+left: -5%
+   }
+
+    100%{
+left: 105%
+    }
+}
+
+#MARIO{
+    margin-top: 20%;
+    width: 200px;
+    height: 200px;
+    animation-name: MARIOANDANDO;
+    animation-duration: 15s;
+    position: absolute
+}
