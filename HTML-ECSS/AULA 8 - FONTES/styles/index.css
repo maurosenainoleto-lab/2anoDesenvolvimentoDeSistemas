@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: Minecraft;
+    src: url('../fonts/minecraft/Minecraft.ttf');
+}
+
+:root{
+    --fontrPrimária: Minecraft;
+}
+
+p{
+    font-family: var(--fontrPrimária);
+}
