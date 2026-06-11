@@ -5,8 +5,8 @@ const partidas = [2, 3, 4]
 
 let jogoFavorito = {
     nome:"Hollow Knight", 
-    anoLancamento: 2017
-};
+    anoLancamento: 2017;
+}
 
 
 console.log(online, typeof online)
